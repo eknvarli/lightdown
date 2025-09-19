@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lightdown"
+version = "0.1.0"
+description = "Simplify web framework for build web applications with Markdown"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+  { name = "Ekin Ilter Varli", email = "ekiniltervarli@gmail.com" }
+]
+dependencies = [
+  "markdown"
+]
+
+[project.urls]
+Homepage = "https://github.com/eknvarli/lightdown"
